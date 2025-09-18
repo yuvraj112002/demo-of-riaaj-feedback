@@ -5,6 +5,16 @@ import FeedbackForm from "../components/feedback-form"
 export default function HomePage() {
   const router = useRouter()
 
+   useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/npm/@iframe-resizer/child@5.5.5";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   const handleFormSuccess = (result) => {
     // Redirect to the newly created item's detail page
     router.push(`/feedback/${result.id}`)
@@ -13,34 +23,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
       {/* Hero Section */}
-      <section className="relative py-12 sm:py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4 sm:mb-6 text-balance">
-            Share Your Creative
-            <span className="text-primary"> Inspiration</span>
-          </h1>
-          <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 sm:mb-12 max-w-2xl mx-auto text-pretty px-4 sm:px-0">
-            Discover, collect, and share visual inspiration with our Pinterest-style moodboard. Upload your favorite
-            images and let others discover your creative vision.
-          </p>
-
-          {/* Quick Stats */}
-          <div className="grid grid-cols-3 gap-4 sm:gap-8 mb-12 sm:mb-16">
-            <div className="text-center">
-              <div className="text-2xl sm:text-3xl font-bold text-primary mb-1 sm:mb-2">∞</div>
-              <div className="text-xs sm:text-sm text-muted-foreground">Endless Inspiration</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl sm:text-3xl font-bold text-primary mb-1 sm:mb-2">⚡</div>
-              <div className="text-xs sm:text-sm text-muted-foreground">Instant Sharing</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl sm:text-3xl font-bold text-primary mb-1 sm:mb-2">🎨</div>
-              <div className="text-xs sm:text-sm text-muted-foreground">Creative Community</div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* Form Section */}
       <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
@@ -57,7 +40,7 @@ export default function HomePage() {
       </section>
 
       {/* Features Section */}
-      <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
+      {/* <section className="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-3 sm:mb-4">Explore & Discover</h2>
@@ -101,7 +84,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

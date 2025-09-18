@@ -19,9 +19,9 @@ export default function RootLayout({ children }) {
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {/* Wrapped all components in Suspense boundary */}
         <Suspense fallback={null}>
-          <Navbar />
+          {/* <Navbar /> */}
           <main className="min-h-screen">{children}</main>
-          <Footer />
+          {/* <Footer /> */}
           <Toast />
         </Suspense>
         <Analytics />

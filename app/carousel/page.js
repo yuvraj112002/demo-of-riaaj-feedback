@@ -104,7 +104,7 @@ export default function CarouselPage() {
       </div>
 
       {/* Info Section */}
-      <div className="bg-muted/30 py-16">
+      {/* <div className="bg-muted/30 py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl font-bold text-foreground mb-4">How to Use the Carousel</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
@@ -139,7 +139,7 @@ export default function CarouselPage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
