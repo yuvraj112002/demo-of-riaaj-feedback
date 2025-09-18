@@ -1,0 +1,74 @@
+[
+  {
+    "id": "467d47ec-ceed-48a3-8a67-23fbdafafcad",
+    "title": "Demo One",
+    "message": "Hey i am sending you message for demo one",
+    "rating": 3,
+    "imageUrl": "/uploads/ffb7b30d-d641-485c-b8e3-2803b4dd88ef.png",
+    "createdAt": "2025-09-17T12:56:15.952Z"
+  },
+  {
+    "id": "1",
+    "title": "Streetwear Vibes",
+    "message": "Love this aesthetic! The urban style really speaks to me. Perfect for inspiration.",
+    "rating": 5,
+    "imageUrl": "/uploads/streetwear-1.jpg",
+    "createdAt": "2024-01-15T10:30:00.000Z"
+  },
+  {
+    "id": "2",
+    "title": "Minimalist Design",
+    "message": "Clean and simple. Sometimes less is more.",
+    "rating": 4,
+    "imageUrl": "/uploads/minimal-1.jpg",
+    "createdAt": "2024-01-14T15:45:00.000Z"
+  },
+  {
+    "id": "3",
+    "title": "Retro Gaming",
+    "message": "Nostalgic pixel art that brings back childhood memories. The color palette is amazing!",
+    "rating": 5,
+    "imageUrl": "/uploads/retro-1.jpg",
+    "createdAt": "2024-01-13T09:20:00.000Z"
+  },
+  {
+    "id": "4",
+    "title": "Nature Photography",
+    "message": "Breathtaking landscape shot. The lighting is perfect.",
+    "rating": 4,
+    "imageUrl": "/uploads/nature-1.jpg",
+    "createdAt": "2024-01-12T14:15:00.000Z"
+  },
+  {
+    "id": "5",
+    "title": "Abstract Art",
+    "message": "Bold colors and interesting composition. Really catches the eye.",
+    "rating": 3,
+    "imageUrl": "/uploads/abstract-1.jpg",
+    "createdAt": "2024-01-11T11:30:00.000Z"
+  },
+  {
+    "id": "6",
+    "title": "Typography Design",
+    "message": "Great use of fonts and spacing. Very readable and stylish.",
+    "rating": 4,
+    "imageUrl": "/uploads/typo-1.jpg",
+    "createdAt": "2024-01-10T16:45:00.000Z"
+  },
+  {
+    "id": "7",
+    "title": "Architecture",
+    "message": "Modern building with interesting geometric patterns. Love the symmetry!",
+    "rating": 5,
+    "imageUrl": "/uploads/arch-1.jpg",
+    "createdAt": "2024-01-09T13:20:00.000Z"
+  },
+  {
+    "id": "8",
+    "title": "Fashion Editorial",
+    "message": "Stunning fashion photography with great styling and mood.",
+    "rating": 4,
+    "imageUrl": "/uploads/fashion-1.jpg",
+    "createdAt": "2024-01-08T12:10:00.000Z"
+  }
+]
