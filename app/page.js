@@ -1,6 +1,7 @@
 "use client"
 import { useRouter } from "next/navigation"
 import FeedbackForm from "../components/feedback-form"
+import { useEffect } from "react";
 
 export default function HomePage() {
   const router = useRouter()
